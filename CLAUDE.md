@@ -33,7 +33,8 @@ project (`C:\Projects\NS_Trade\CLAUDE.md`, 2026-11-09); NS_Trade-specific rules
 
 ## Git and GitHub
 
-- Local repo, branch `main`. Remote not set yet - Dwight will create a private repo (e.g. `https://github.com/dwightyack/myQBAddin.git`). Keep it private.
+- Remote: `https://github.com/dwightyack/myQBAddin.git` (private, first pushed 2026-11-09). Branch `main`. Keep it private.
+- Dwight pushes from Git Bash (`cd /c/Projects/myQBAddin`, `git push`). The linked-computer shell has no route to github.com.
 - Always use the user ID `dwightyack` in any git or gh command shown to Dwight.
 - Commit any NEW `.csv` file or Excel workbook (`.xlsx`, `.xlsm`, `.xlsb`, `.xls`, `.xlam`) found in the folder without asking, and say which files were committed. Excel `~$` lock files stay ignored.
 - Everything Claude produces is saved in this folder and committed: zips and deliverables in `Claude Outputs/`, exchange logs in `Claude Exchanges/`, notes in `docs/Claude project notes/`.

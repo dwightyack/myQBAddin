@@ -28,7 +28,7 @@ Started 2026-11-09 from the general rules of the NS_Trade_Historical project. `C
 - One Word file per exchange in `Claude Exchanges\`, `YYYY-MM-DD HHMM - <topic>.docx` (America/Chicago, time of the request): Request, Your input (verbatim), Response, Files. Committed locally.
 
 ## Git
-- `C:\Projects\myQBAddin` initialised 2026-11-09, branch `main`, no remote yet (Dwight to create a private `dwightyack/myQBAddin` repo). New workbooks / CSVs in the folder are committed without asking. Git in the linked-computer shell needs delete permission on the folder.
+- `C:\Projects\myQBAddin` initialised 2026-11-09, branch `main`. Remote `https://github.com/dwightyack/myQBAddin.git` (private), first pushed by Dwight from Git Bash 2026-11-09 1:04 pm. New workbooks / CSVs in the folder are committed without asking. Git in the linked-computer shell needs delete permission on the folder.
 
 ## VBA lessons carried over from NS_Trade
 - Max 24 line continuations per statement.
