@@ -1,6 +1,6 @@
 # VBA change workflow for myQBAddin.xlam
 
-Started 2026-11-09 from the general rules of the NS_Trade_Historical project. `CLAUDE.md` in the project folder holds the condensed rule set; this note keeps the reasons and history.
+Started 2026-11-09 from the general rules of the NS_Trade_Historical project. `CLAUDE.md` in the project folder holds the condensed rule set; this note keeps the reasons and history. Master copy: the Claude project "myQBAddin" (`claude/vba-workflow.md`).
 
 ## How a change request goes
 1. Dwight saves the add-in in Excel (Ctrl+S in the VBA editor with myQBAddin selected, or `Save_Addin`).
