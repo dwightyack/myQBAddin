@@ -9,6 +9,9 @@ Started 2026-11-09 from the general rules of the NS_Trade_Historical project. `C
 4. Dwight imports the modules into the live add-in, compiles, and saves with `Save_Addin` (backs up to AddIn_Backups, publishes to AddIns_Shared).
 5. Claude refreshes `vba\` from the saved add-in once the change is in, writes the exchange log and commits locally. Dwight pushes (or asks Claude to).
 
+## Code rules
+- Never use AutoFit (columns or rows) unless Dwight asks for it (Dwight, 2026-11-09; same rule he set for NS_Trade).
+
 ## Used by other workbooks
 - Many workbooks reference this add-in; public names and signatures are an interface. Search `C:\Projects` for callers before changing one.
 - NS_Trade's NSCommon calls `whichOpen_WB_Dialog` and `whichOpen_CSV_Dialog` (2026-11-09).
@@ -28,7 +31,7 @@ Started 2026-11-09 from the general rules of the NS_Trade_Historical project. `C
 - One Word file per exchange in `Claude Exchanges\`, `YYYY-MM-DD HHMM - <topic>.docx` (America/Chicago, time of the request): Request, Your input (verbatim), Response, Files. Committed locally.
 
 ## Git
-- `C:\Projects\myQBAddin` initialised 2026-11-09, branch `main`. Remote `https://github.com/dwightyack/myQBAddin.git` (private), first pushed by Dwight from Git Bash 2026-11-09 1:04 pm. New workbooks / CSVs in the folder are committed without asking. Git in the linked-computer shell needs delete permission on the folder.
+- `C:\Projects\myQBAddin` initialised 2026-11-09, branch `main`. Remote `https://github.com/dwightyack/myQBAddin.git` (private), first pushed by Dwight from Git Bash 2026-11-09 1:04 pm. Dwight pushes (`cd /c/Projects/myQBAddin`, `git push`); the linked-computer shell has no route to github.com. New workbooks / CSVs in the folder are committed without asking. Git in the linked-computer shell needs delete permission on the folder.
 
 ## VBA lessons carried over from NS_Trade
 - Max 24 line continuations per statement.
@@ -39,3 +42,5 @@ Started 2026-11-09 from the general rules of the NS_Trade_Historical project. `C
 
 ## History
 - 2026-11-09: project folder set up; `vba\` holds Dwight's own export of the add-in (59 files, 12,856 lines in .bas/.cls/.frm).
+- 2026-11-09 1:04 pm: first push to GitHub (4 commits).
+- 2026-11-09 1:16 pm: AutoFit rule added.

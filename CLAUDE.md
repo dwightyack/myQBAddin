@@ -48,6 +48,7 @@ project (`C:\Projects\NS_Trade\CLAUDE.md`, 2026-11-09); NS_Trade-specific rules
 - Read the code from the saved `myQBAddin.xlam` at the start of every code request; never reuse an earlier extract, and do not treat `vba/` as current. Edits typed in the VBA editor but not saved (Ctrl+S) are not in the file.
 - Tell Dwight the last-saved date and time of the copy that was read.
 - Change as few lines as possible. Keep Dwight's own edits and comments.
+- Never use AutoFit (`.AutoFit` on columns or rows) unless Dwight asks for it (Dwight, 2026-11-09).
 - After a delivery is confirmed loaded, refresh `vba/` from the saved add-in and commit it.
 
 ## Code comment style
