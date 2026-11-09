@@ -1,0 +1,16 @@
+# VBA source: keep Windows line endings in the working folder so the
+# files import cleanly into the VBA editor.
+*.bas text eol=crlf
+*.cls text eol=crlf
+*.frm text eol=crlf
+*_code.txt text eol=crlf
+
+# Binary files - never diff or merge as text
+*.xlsm binary
+*.xlam binary
+*.xlsx binary
+*.xlsb binary
+*.frx  binary
+*.docx binary
+*.pdf  binary
+*.png  binary

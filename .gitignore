@@ -1,0 +1,24 @@
+# Excel lock / temp / recovery files
+~$*
+*.tmp
+*.bak
+*.xlk
+*.asd
+*.wbk
+
+# Windows / macOS clutter
+Thumbs.db
+ehthumbs.db
+desktop.ini
+.DS_Store
+
+# Editors
+.vscode/
+*.swp
+
+# Python (tools/export_vba.py)
+__pycache__/
+*.pyc
+
+# Logs written by macros
+*.log
