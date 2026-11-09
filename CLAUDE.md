@@ -34,7 +34,8 @@ project (`C:\Projects\NS_Trade\CLAUDE.md`, 2026-11-09); NS_Trade-specific rules
 ## Git and GitHub
 
 - Remote: `https://github.com/dwightyack/myQBAddin.git` (private, first pushed 2026-11-09). Branch `main`. Keep it private.
-- Dwight pushes from Git Bash (`cd /c/Projects/myQBAddin`, `git push`). The linked-computer shell has no route to github.com.
+- Dwight pushes from Git Bash (`cd /c/Projects/myQBAddin`, `git push`). The linked-computer shell has no route to github.com (403 from the proxy).
+- When Dwight asks Claude to push: (1) on the computer `git bundle create "Claude Outputs/_push.bundle" origin/main..main`, (2) stage the bundle into the cloud session, (3) attach `dwightyack/myQBAddin` with push access, clone it there, `git pull <bundle> main`, `git push origin main`, (4) on the computer `git update-ref refs/remotes/origin/main main` and delete the bundle. (First used 2026-11-09.)
 - Always use the user ID `dwightyack` in any git or gh command shown to Dwight.
 - Commit any NEW `.csv` file or Excel workbook (`.xlsx`, `.xlsm`, `.xlsb`, `.xls`, `.xlam`) found in the folder without asking, and say which files were committed. Excel `~$` lock files stay ignored.
 - Everything Claude produces is saved in this folder and committed: zips and deliverables in `Claude Outputs/`, exchange logs in `Claude Exchanges/`, notes in `docs/Claude project notes/`.

@@ -31,7 +31,7 @@ Started 2026-11-09 from the general rules of the NS_Trade_Historical project. `C
 - One Word file per exchange in `Claude Exchanges\`, `YYYY-MM-DD HHMM - <topic>.docx` (America/Chicago, time of the request): Request, Your input (verbatim), Response, Files. Committed locally.
 
 ## Git
-- `C:\Projects\myQBAddin` initialised 2026-11-09, branch `main`. Remote `https://github.com/dwightyack/myQBAddin.git` (private), first pushed by Dwight from Git Bash 2026-11-09 1:04 pm. Dwight pushes (`cd /c/Projects/myQBAddin`, `git push`); the linked-computer shell has no route to github.com. New workbooks / CSVs in the folder are committed without asking. Git in the linked-computer shell needs delete permission on the folder.
+- `C:\Projects\myQBAddin` initialised 2026-11-09, branch `main`. Remote `https://github.com/dwightyack/myQBAddin.git` (private), first pushed by Dwight from Git Bash 2026-11-09 1:04 pm. Dwight pushes (`cd /c/Projects/myQBAddin`, `git push`); the linked-computer shell has no route to github.com. Claude can push when asked: bundle `origin/main..main` on the computer, stage it, clone with push access in the cloud session, pull the bundle, push, then `git update-ref refs/remotes/origin/main main` on the computer and delete the bundle (first done 2026-11-09 1:16 pm). New workbooks / CSVs in the folder are committed without asking. Git in the linked-computer shell needs delete permission on the folder.
 
 ## VBA lessons carried over from NS_Trade
 - Max 24 line continuations per statement.
@@ -44,3 +44,4 @@ Started 2026-11-09 from the general rules of the NS_Trade_Historical project. `C
 - 2026-11-09: project folder set up; `vba\` holds Dwight's own export of the add-in (59 files, 12,856 lines in .bas/.cls/.frm).
 - 2026-11-09 1:04 pm: first push to GitHub (4 commits).
 - 2026-11-09 1:16 pm: AutoFit rule added.
+- 2026-11-09 1:16 pm: Claude pushed 3 commits through the GitHub connector (bundle route).
